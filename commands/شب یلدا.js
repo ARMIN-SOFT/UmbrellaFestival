@@ -65,8 +65,4 @@ show_alert: false
 Bot.runCommand("تاریخ و زمان");
 Bot.sendMesage("<Sex> [" + FullName + "](tg://user?id=" + UserID + ") به بخش شب یلدا خوش آمدید.\n\n<DateTime>\n➖➖➖➖➖➖➖➖➖➖\n🙇‍♂لطفا به پرسش هایی که از شما پرسیده می شود به درستی پاسخ دهید.");
 
-let Buttons = [
-[{title: "📱همراه اول", command: "همراه اول" },{title: "📱ایرانسل", command: "ایرانسل" }],
-];
-
-Bot.sendInlineKeyboard(Buttons, "⁉️پرسش اول:اپراتور خود را انتخاب کنید.\n➖➖➖➖➖➖➖➖➖➖\n👌جهت استفاده از امکانات ربات بر روی منوی مورد نظر کلیک کنید.");
+Bot.runCommand("اپراتور");
